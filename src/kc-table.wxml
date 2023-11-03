@@ -1,0 +1,5 @@
+<view class="kc-table" wx:if="{{columns.length>0&&dataSource.length>0}}">
+  <kc-table-header columns="{{columns}}"></kc-table-header>
+  <kc-table-body dataSource="{{dataSource}}" columns="{{columns}}"></kc-table-body>
+  <view class="kc-table__pager"></view>i
+</view>

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "kc-table-header": "./kc-table-header"
+  }
+}

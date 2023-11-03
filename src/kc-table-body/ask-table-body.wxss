@@ -1,0 +1,14 @@
+.kc-table-body {
+  width: 100%;
+}
+
+.kc-table-body__column {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kc-table-body__row {
+  width: 100%;
+}

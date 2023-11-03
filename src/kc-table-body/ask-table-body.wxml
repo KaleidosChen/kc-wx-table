@@ -1,0 +1,5 @@
+<view class="kc-table-body" >
+  <view class="kc-table-body__column" wx:for="{{tableData}}" wx:for-item="dataItem" wx:key="index">
+    <view class="kc-table-body__row" wx:for="{{dataItem}}" wx:key="index">{{item}}</view>
+  </view>
+</view>

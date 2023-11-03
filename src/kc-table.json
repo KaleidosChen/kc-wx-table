@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "kc-table-header": "./kc-table-header/kc-table-header",
+    "kc-table-body": "./kc-table-body/kc-table-body"
+  }
+}
