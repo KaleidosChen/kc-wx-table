@@ -7,19 +7,23 @@
 
 # 1. 安装
 
-安装使用 npm，`npm install kc-wx-table`
+1.1 安装使用 npm，`npm install kc-wx-table`
+
+1.2 构建 npm
 
 # 2.使用
 
 2.1 引入 kc-wx-table 组件
 
 > "usingComponents": {
-> "kc-table":"/components/kc-table/kc-table"
+> "kc-table":"kc-wx-table/kc-table"
 > }
 
 2.2 页面中写入组件
 
-> <kc-table columns="{{columns}}" dataSource="{{dataSource}}" striped="{{true}}" bordered="{{true}}"></kc-table>
+```
+<kc-table columns="{{columns}}" dataSource="{{dataSource}}" striped="{{true}}" bordered="{{true}}"></kc-table>
+```
 
 # 3.配置
 
