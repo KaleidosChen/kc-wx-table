@@ -1,3 +1,4 @@
+
 .kc-table-body {
   width: 100%;
 }
@@ -10,5 +11,15 @@
 }
 
 .kc-table-body__row {
+  min-height: 64rpx;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.striped{
+  background-color: rgba(0,0,0,0.05);
+}
+.bordered{
+  border: 1rpx solid rgba(0,0,0,0.4);
 }

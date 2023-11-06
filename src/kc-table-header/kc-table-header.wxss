@@ -1,0 +1,16 @@
+.kc-table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kc-table-header__row {
+  min-height: 120rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bordered{
+  border: 1rpx solid rgba(0,0,0,0.4);
+}

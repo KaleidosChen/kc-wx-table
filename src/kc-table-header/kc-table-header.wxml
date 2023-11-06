@@ -1,0 +1,9 @@
+<view class="kc-table-header">
+  <block wx:for="{{columns}}" wx:for-item="column" wx:key="index"   >
+    <view wx:if="{{column.children}}">
+      <view class="kc-table-header__row {{bordered?'bordered':''}}" style="flex: {{column.width}};">{{column.title}}</view>
+      <kc-table-header columns="{{column.children}}"></kc-table-header>
+    </view>
+    <view wx:else="" class="kc-table-header__row {{bordered?'bordered':''}}" style="flex: {{column.width}};">{{column.title}}</view>
+  </block>
+</view>

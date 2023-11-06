@@ -1,9 +1,0 @@
-.kc-table-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.kc-table-header__row {
-  width: 100%;
-}

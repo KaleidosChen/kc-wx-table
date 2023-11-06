@@ -1,0 +1,5 @@
+<view class="kc-table-body" >
+  <view class="kc-table-body__column {{striped&&index%2==1?'striped':''}}"  wx:for="{{tableData}}" wx:for-item="dataItem" wx:key="index">
+    <view class="kc-table-body__row {{bordered?'bordered':''}}" wx:for="{{dataItem}}" wx:key="index" index="index" style="flex:{{widthObject[index].width}}">{{item.value}}</view>
+  </view>
+</view>

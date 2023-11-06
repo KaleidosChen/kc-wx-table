@@ -9,5 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "miniprogram": "src"
+  "miniprogram": "src",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KaleidosChen/kc-wx-table.git"
+  }
 }
